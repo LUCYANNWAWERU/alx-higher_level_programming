@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-
-'''Task 01 - 1. My list'''
+"""
+Contains the definition for the class MyList that inherits from list.
+"""
 
 
 class MyList(list):
-    '''class MyList'''
+    """Definition of class MyList that inherits from class list."""
+
     def print_sorted(self):
-        '''Function that prints the list,
-        but sorted (ascending sort)'''
+        """Prints list sorted in ascending order, assuming elements are int"""
+
         print(sorted(self))
